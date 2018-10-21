@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name quadrant)(type KiCad)(uri ${KIPRJMOD}/quadrant.pretty)(options "")(descr ""))
+)
