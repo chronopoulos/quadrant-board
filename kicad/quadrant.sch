@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Quadrant Board"
-Date "2018-10-22"
+Date "2018-11-16"
 Rev "2"
 Comp "Chris Chronopoulos"
 Comment1 ""
@@ -387,7 +387,7 @@ L Device:C C2
 U 1 1 5BCE3650
 P 1950 5850
 F 0 "C2" V 1698 5850 50  0000 C CNN
-F 1 "20 pF" V 1789 5850 50  0000 C CNN
+F 1 "18 pF" V 1789 5850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1988 5700 50  0001 C CNN
 F 3 "~" H 1950 5850 50  0001 C CNN
 	1    1950 5850
@@ -398,7 +398,7 @@ L Device:C C3
 U 1 1 5BCE4C9A
 P 1950 6150
 F 0 "C3" V 2100 6150 50  0000 C CNN
-F 1 "20 pF" V 2200 6150 50  0000 C CNN
+F 1 "18 pF" V 2200 6150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1988 6000 50  0001 C CNN
 F 3 "~" H 1950 6150 50  0001 C CNN
 	1    1950 6150
