@@ -169,54 +169,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0103
 U 1 1 5C36188E
-P 8350 1750
-F 0 "#PWR0103" H 8350 1500 50  0001 C CNN
-F 1 "GND" H 8355 1577 50  0000 C CNN
-F 2 "" H 8350 1750 50  0001 C CNN
-F 3 "" H 8350 1750 50  0001 C CNN
-	1    8350 1750
+P 7100 1900
+F 0 "#PWR0103" H 7100 1650 50  0001 C CNN
+F 1 "GND" H 7105 1727 50  0000 C CNN
+F 2 "" H 7100 1900 50  0001 C CNN
+F 3 "" H 7100 1900 50  0001 C CNN
+	1    7100 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 1750 8350 1700
-Wire Wire Line
-	8350 1700 8450 1700
 $Comp
 L Device:C C11
 U 1 1 5C361896
-P 8600 1700
-F 0 "C11" V 8348 1700 50  0000 C CNN
-F 1 "0.1 uF" V 8439 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8638 1550 50  0001 C CNN
-F 3 "~" H 8600 1700 50  0001 C CNN
-	1    8600 1700
-	0    1    1    0   
+P 7100 1500
+F 0 "C11" H 7000 1600 50  0000 C CNN
+F 1 "0.1 uF" H 6950 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7138 1350 50  0001 C CNN
+F 3 "~" H 7100 1500 50  0001 C CNN
+	1    7100 1500
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8800 2100 8800 1900
-Wire Wire Line
-	8800 1700 8750 1700
-Wire Wire Line
-	8700 2100 8700 1900
-Wire Wire Line
-	8700 1900 8800 1900
-Connection ~ 8800 1900
-Wire Wire Line
-	8800 1900 8800 1700
-Wire Wire Line
-	8900 2100 8900 1900
-Wire Wire Line
-	8900 1900 8800 1900
-Wire Wire Line
-	9000 2100 9000 1900
-Wire Wire Line
-	9000 1900 8900 1900
-Connection ~ 8900 1900
-Wire Wire Line
-	8600 2100 8600 1900
-Wire Wire Line
-	8600 1900 8700 1900
-Connection ~ 8700 1900
 Wire Wire Line
 	6450 2500 8100 2500
 $Comp
@@ -286,9 +257,6 @@ Wire Wire Line
 	8100 2800 7950 2800
 Wire Wire Line
 	7950 2800 7950 3000
-Wire Wire Line
-	8800 1400 8800 1700
-Connection ~ 8800 1700
 Text GLabel 9450 4600 2    50   Input ~ 0
 USBDP
 Text GLabel 9450 4500 2    50   Input ~ 0
@@ -423,17 +391,6 @@ Wire Wire Line
 Connection ~ 9600 4300
 Wire Wire Line
 	9600 4300 10150 4300
-$Comp
-L power:+3V3 #PWR0117
-U 1 1 5C3A7FD6
-P 8800 1400
-F 0 "#PWR0117" H 8800 1250 50  0001 C CNN
-F 1 "+3V3" H 8815 1573 50  0000 C CNN
-F 2 "" H 8800 1400 50  0001 C CNN
-F 3 "" H 8800 1400 50  0001 C CNN
-	1    8800 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 4350 4000 4350
 Wire Wire Line
@@ -1234,4 +1191,113 @@ Wire Wire Line
 Connection ~ 2800 2400
 Wire Wire Line
 	2800 2400 2800 2500
+$Comp
+L Device:C C15
+U 1 1 5C4CAAB9
+P 7450 1500
+F 0 "C15" H 7350 1600 50  0000 C CNN
+F 1 "0.1 uF" H 7300 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 1350 50  0001 C CNN
+F 3 "~" H 7450 1500 50  0001 C CNN
+	1    7450 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5C4D029F
+P 7800 1500
+F 0 "C16" H 7700 1600 50  0000 C CNN
+F 1 "0.1 uF" H 7650 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7838 1350 50  0001 C CNN
+F 3 "~" H 7800 1500 50  0001 C CNN
+	1    7800 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5C4D02A5
+P 8150 1500
+F 0 "C17" H 8050 1600 50  0000 C CNN
+F 1 "0.1 uF" H 8000 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8188 1350 50  0001 C CNN
+F 3 "~" H 8150 1500 50  0001 C CNN
+	1    8150 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 1650 7100 1900
+Wire Wire Line
+	7100 1650 7450 1650
+Connection ~ 7100 1650
+Wire Wire Line
+	7450 1650 7800 1650
+Connection ~ 7450 1650
+Wire Wire Line
+	7800 1650 8150 1650
+Connection ~ 7800 1650
+Wire Wire Line
+	7100 1350 7450 1350
+Wire Wire Line
+	7450 1350 7800 1350
+Connection ~ 7450 1350
+Wire Wire Line
+	7800 1350 8150 1350
+Connection ~ 7800 1350
+$Comp
+L power:+3V3 #PWR022
+U 1 1 5C50EBF0
+P 7100 1200
+F 0 "#PWR022" H 7100 1050 50  0001 C CNN
+F 1 "+3V3" H 7115 1373 50  0000 C CNN
+F 2 "" H 7100 1200 50  0001 C CNN
+F 3 "" H 7100 1200 50  0001 C CNN
+	1    7100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1200 7100 1350
+Connection ~ 7100 1350
+Wire Wire Line
+	8800 1350 8800 1850
+Wire Wire Line
+	8700 2100 8700 1850
+Wire Wire Line
+	8700 1850 8800 1850
+Connection ~ 8800 1850
+Wire Wire Line
+	8800 1850 8800 2100
+Wire Wire Line
+	8600 2100 8600 1850
+Wire Wire Line
+	8600 1850 8700 1850
+Connection ~ 8700 1850
+Wire Wire Line
+	8900 2100 8900 1850
+Wire Wire Line
+	8900 1850 8800 1850
+Wire Wire Line
+	9000 2100 9000 1850
+Wire Wire Line
+	9000 1850 8900 1850
+Connection ~ 8900 1850
+$Comp
+L Device:C C18
+U 1 1 5C53AD8B
+P 8500 1500
+F 0 "C18" H 8400 1600 50  0000 C CNN
+F 1 "0.1 uF" H 8350 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 1350 50  0001 C CNN
+F 3 "~" H 8500 1500 50  0001 C CNN
+	1    8500 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 1650 8500 1650
+Wire Wire Line
+	8150 1350 8500 1350
+Connection ~ 8150 1350
+Connection ~ 8150 1650
+Wire Wire Line
+	8500 1350 8800 1350
+Connection ~ 8500 1350
 $EndSCHEMATC
