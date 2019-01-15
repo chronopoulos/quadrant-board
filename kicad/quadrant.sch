@@ -76,17 +76,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 1100 4300 1100
 NoConn ~ 4300 1400
-$Comp
-L power:VCC #PWR0120
-U 1 1 5B9A1F01
-P 3850 850
-F 0 "#PWR0120" H 3850 700 50  0001 C CNN
-F 1 "VCC" H 3867 1023 50  0000 C CNN
-F 2 "" H 3850 850 50  0001 C CNN
-F 3 "" H 3850 850 50  0001 C CNN
-	1    3850 850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 850  3850 900 
 Wire Wire Line
@@ -1300,4 +1289,15 @@ Connection ~ 8150 1650
 Wire Wire Line
 	8500 1350 8800 1350
 Connection ~ 8500 1350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C3EDF8C
+P 3850 850
+F 0 "#PWR?" H 3850 700 50  0001 C CNN
+F 1 "+3V3" H 3865 1023 50  0000 C CNN
+F 2 "" H 3850 850 50  0001 C CNN
+F 3 "" H 3850 850 50  0001 C CNN
+	1    3850 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
