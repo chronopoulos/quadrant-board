@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Tue 19 Mar 2019 03:07:28 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -31,3 +31,13 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/chrono/Dropbox/quadrant/repos/quadrant-board/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
