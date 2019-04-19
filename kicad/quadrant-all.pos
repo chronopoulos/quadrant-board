@@ -1,0 +1,45 @@
+### Module positions - created on Thu Apr  4 00:18:43 2019 ###
+### Printed by Pcbnew version kicad 5.0.0-fee4fd1~66~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val            Package                                               PosX       PosY       Rot  Side
+C1        1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       131.1000  -118.5250   90.0000  top
+C2        4.7uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       126.0000  -102.4750  270.0000  top
+C3        0.1uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       124.0000  -102.4750  270.0000  top
+C4        1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       134.6000  -116.5500  180.0000  top
+C5        4.7uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       152.9750   -72.0000  180.0000  top
+C6        0.1uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       152.9750   -74.0000  180.0000  top
+C7        4.7uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       144.4750  -139.0000    0.0000  top
+C8        1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       138.1000  -121.0250   90.0000  top
+C9        18_pF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       152.8250   -91.4000    0.0000  top
+C10       18_pF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       145.7750   -91.4000  180.0000  top
+C12       0.1uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       144.4750  -141.0000    0.0000  top
+C13       4.7uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       171.0000  -110.9750   90.0000  top
+C14       0.1uF          C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       173.0000  -111.0000   90.0000  top
+C15       0.1_uF         C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       141.8000  -109.4250  270.0000  top
+C16       0.1_uF         C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       152.1250  -113.5380    0.0000  top
+C17       0.1_uF         C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       155.5000  -103.7750   90.0000  top
+C18       0.1_uF         C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       146.8250   -99.5000  180.0000  top
+J2        USB_B_Micro    USB_Micro-B_Amphenol_10103594-0001LF_Horizontal   125.7300  -125.1760  270.0000  top
+R1        10k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       157.4800  -103.7750  270.0000  top
+R2        10             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       148.7500   -80.5000  180.0000  top
+R3        10             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       132.5000  -106.7500  270.0000  top
+R4        10             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       164.7500  -106.7500   90.0000  top
+R5        10             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       148.7500  -132.7500    0.0000  top
+R6        4.7k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       165.2250   -94.7500    0.0000  top
+R7        4.7k           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       165.2250   -96.7500    0.0000  top
+R8        47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       126.0000  -111.5250   90.0000  top
+R9        47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       124.0000  -111.5250   90.0000  top
+R10       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       143.9750   -74.0000    0.0000  top
+R11       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       153.5250  -139.0000  180.0000  top
+R12       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       143.9750   -72.0000    0.0000  top
+R13       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       153.5250  -141.0000  180.0000  top
+R14       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       171.0000  -102.0250  270.0000  top
+R15       47k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder       173.0000  -102.0250  270.0000  top
+U1        VL6180X        VL6180X                                           126.0000  -106.7500    0.0000  top
+U2        AP7332-2833    SOT-23-6_Handsoldering                            134.6000  -120.9000  270.0000  top
+U3        VL6180X        VL6180X                                           148.7500   -74.0000  270.0000  top
+U4        VL6180X        VL6180X                                           148.7500  -139.2500   90.0000  top
+U5        VL6180X        VL6180X                                           171.2500  -106.7500  180.0000  top
+U6        STM32F070CBTx  LQFP-48_7x7mm_P0.5mm                              148.7500  -106.7500  270.0000  top
+## End
